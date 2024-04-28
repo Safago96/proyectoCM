@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactsAdapter"
+    android:background="@color/grisOscuro">
+
+    <ImageView
+        android:id="@+id/imgContact"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        app:srcCompat="@drawable/receiver" />
+
+    <TextView
+        android:id="@+id/contactID"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textColor="@color/melocoton"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="0.7"
+        android:gravity="center|left"
+        android:textColor="@color/melocoton"/>
+
+</LinearLayout>
